@@ -3,7 +3,7 @@ This is the repository of the short paper [Dynamic Top-K Estimation Consolidates
 Attribution Methods](https://arxiv.org/abs/2310.05619) by Jonathan Kamp, Lisa Beinborn and Antske Fokkens. EMNLP 2023, 
 Singapore.
 
-### Description of the code files in `esnli/`
+### Description of the code files in `esnli/` directory
 Fine-tuning the models:
 * `esnli_distilbert.py`
 
