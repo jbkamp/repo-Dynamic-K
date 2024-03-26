@@ -27,7 +27,7 @@ Analysis script:
 
 ### Cite us :)
 Please cite our EMNLP version:
-`
+```bibtex
 @inproceedings{kamp-etal-2023-dynamic,
     title = "Dynamic Top-k Estimation Consolidates Disagreement between Feature Attribution Methods",
     author = "Kamp, Jonathan  and
@@ -46,4 +46,4 @@ Please cite our EMNLP version:
     pages = "6190--6197",
     abstract = "Feature attribution scores are used for explaining the prediction of a text classifier to users by highlighting a k number of tokens. In this work, we propose a way to determine the number of optimal k tokens that should be displayed from sequential properties of the attribution scores. Our approach is dynamic across sentences, method-agnostic, and deals with sentence length bias. We compare agreement between multiple methods and humans on an NLI task, using fixed k and dynamic k. We find that perturbation-based methods and Vanilla Gradient exhibit highest agreement on most method{--}method and method{--}human agreement metrics with a static k. Their advantage over other methods disappears with dynamic ks which mainly improve Integrated Gradient and GradientXInput. To our knowledge, this is the first evidence that sequential properties of attribution scores are informative for consolidating attribution signals for human interpretation.",
 }
-`
+```
