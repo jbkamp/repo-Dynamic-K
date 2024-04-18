@@ -1,6 +1,6 @@
 ### Welcome
 This is the repository of the short paper [Dynamic Top-K Estimation Consolidates Disagreement between Feature 
-Attribution Methods](https://arxiv.org/abs/2310.05619) by Jonathan Kamp, Lisa Beinborn and Antske Fokkens. EMNLP 2023, 
+Attribution Methods](https://aclanthology.org/2023.emnlp-main.379/) by Jonathan Kamp, Lisa Beinborn and Antske Fokkens. EMNLP 2023, 
 Singapore.
 
 ### Description of the code files in `esnli/` directory
@@ -12,7 +12,7 @@ Results inspection and stats:
 * `esnli_dataset_and_annotation_stats.py`
 
 Model selection:
-* `create_explanation_pickles_distilbert.py` (stored in `explanations/`)
+* `create_explanation_pickles_distilbert.py` (stored in `esnli/explanations/`)
 * `classifier_model_selection.py`
 
 Analysis script:
